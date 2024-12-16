@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    width: 100%;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+}
+
+.btn {
+    color: white;
+    background-color: #000000;
+    padding: 12px 34px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: white;
+    border: 1px solid #000000;
+}
+
+
+.header__wrapper {
+    /* width: 1440px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__navigation-list {
+    display: flex;
+    gap: 32px;
+}
+
+.navigation__list-link {
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo {
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.intro {
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.intro__wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.intro__text {
+    width: 500px;
+
+}
+
+.intro__text>h1>span {
+    font-weight: bolder;
+}
+
+
+.intro__text>h1 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+
+
+.intro__img {
+    width: 500px;
+}
+
+.intro__icon {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+
+.intro__icon1 {
+    padding: 18px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: #000;
+        color: #fff;
+        transition: all 0.5s;
+
+    }
+
+}
+
+/*  First intro section finished */
+
+
+.intro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+h2 {
+    margin-top: 1;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.intro2__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    font-size: 3rem;
+}
+
+.intro2__wrapper :hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.intro2__wrapper p {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 100px;
+    font-weight: 900px;
+}
+
+/* CdNJS FONTAWESOPME */
+
+.card1 {
+    background-color: #000;
+    color: #fff;
+}
+
+.wrapper__card {
+    border: solid 1px;
+    width: 180px;
+    height: 180px;
+}
+
+/*  Intro 2 section finished  */
+
+.intro3 {
+    background-color: black;
+    margin-top: 50px;
+}
+
+.intro3__wrapper {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+
+}
+
+.intro3__card {
+    border: solid 1px;
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+}
+
+/* Intro3 section finished */
+
+.intro4 {
+    margin-top: 40px;
+}
+
+
+.intro4__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.intro4__card {
+    width: 40%;
+    height: 570px;
+}
+
+.wrapper__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+.experience__card img {
+    width: 20px;
+    height: 20px;
+}
+
+.experience {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.experience__card {
+    width: 70%;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.active {
+    background-color: #000000;
+}
+
+.experience__card h4 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.experience__wrapper span{
+    font-size: 2rem;
+    color: #fff;
+
+}
+
+
+.experience__wrapper h3{
+    font-size: 1.6rem;
+    color: #fff;
+    padding-bottom: 40px;
+
+}
+
+
+.experience__card p {
+    color: grey;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.experience__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience__card i {
+    color: #fff;
+}
+
+/* Intro4 Section Finished */
+
+.projects {
+    background-color: black;
+}
+
+.project__wrapper {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.project__card {
+    gap: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.project__text {
+    width: 450px;
+    height: 450px;
+    margin-top: 100px;
+    /* font-size: 1.5rem; */
+
+}
+
+.project__text span {
+    font-size: 2.5rem;
+
+}
+
+
+.project__text h4 {
+    font-size: 2rem;
+
+}
+
+.project__img {
+    width: 450px;
+    height: 450px;
+}
+
+
+.project__text>h1>span {
+    font-weight: bolder;
+}
+
+/* Project section finished */
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial__wrapper {
+    margin-top: 20px;
+}
+
+
+.testimonial__cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.testimonial__cards :hover{
+    background-color: #000;
+    color: white;
+    transition: all 0.5s;
+}
+
+
+.cards {
+    border: solid;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Testimonial section finished */
+
+
+.personal {
+    color: white;
+    background-color: #000;
+}
+
+.person__footer {
+    display: flex;
+    justify-content: space-around;
+}
